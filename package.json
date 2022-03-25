@@ -1,0 +1,30 @@
+{
+  "name": "curso-asincronismoo",
+  "version": "1.0.0",
+  "description": "Trabajo con asincronimo en JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+
+    "callback:challenge": "node src/callback/challenge.js",
+
+    "promise": "node src/promise/index.js",
+
+    "promise:challenge": "node src/Promise/challenge.js",
+
+    "async": "node src/async/index.js",
+
+    "async:challenge": "node src/async/challenge"
+    
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Joel Jimenez",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

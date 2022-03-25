@@ -1,0 +1,18 @@
+Callbacks:
+    +) Es una analogia facil de implementar, y son universales, corren en cualquier navegador,
+    -) La composicion es un poco tosca :c, podemos llegar a los callback hell que eso no 
+        es muy amigable con el programor, el flujo es poco intuitivo, y el manejo de errores 
+        son tediosos
+
+Promesas:
+    +) Facilmente enlazable con el .then, es poderoso nos permite tener una gran capacidad de 
+        trabajar con asincronismo.
+    -) No maneja execpciones para ello utiliza el catch para recolectar errores, necesita un    polifile para funcionar en todos los navegadores.
+
+Async Await:
+    +) Son mas amigables con el programador, y podemos esperar a que los procesos sucedan
+    -) Tenemos que esperar a que las funciones terminen para poder realizar otros llamados
+
+Conclusion 
+- Optimizar los callback a promesas, en caso halla un callback hell,
+- Utilizar promesas así como tambien async y await
